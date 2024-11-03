@@ -13,6 +13,15 @@
 .nav-item a:hover{
     background:dimgray;
 }
+.home-section{
+    background: url('./images/image11.jpg')no-repeat center center/cover;
+    width: 100%;
+    height: 300px;
+    color: white;
+    text-align: center;
+    position: relative;
+    padding: 70px;
+}
 #card2img1{
     height: 300px;
 }
@@ -22,12 +31,41 @@
 #caption1{
     top: 100px;
 }
-#caption2{
+/* #caption2{
     top: 80px;
+} */
+.services-section{
+    background: url('./images/image12.jpg')no-repeat center center/cover;
+    width: 100%;
+    height: 250px;
+    color: white;
+    text-align: center;
+    position: relative;
+    padding: 70px;
+       
 }
-
+.contact-section{
+    background: url('./images/image13.jpg') no-repeat center center/cover;
+    opacity:0.9;
+    color: white;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+#button{
+    margin-bottom: 20px;
+}
 #banner-container3{
     padding: 0px;
+    position: relative;
+}
+#form1{
+    display: flex;
 }
 @media (max-width: 576px) {
     .card {

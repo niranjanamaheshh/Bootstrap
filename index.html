@@ -57,11 +57,10 @@
               </div>
             </div>
           </nav>
-        <div class="container-fluid position-relative" id="banner-container1">
-            <img src="./images/image11.jpg" class="img-fluid w-100" id="banner1" alt="">
-            <div class="carousel-caption" id="caption1">
-                <h1 class="text-shadow">CONQUER</h1>
-                <h3>Simple Bootstrap Template</h3>
+          <div class="home-section">
+            <div class="home-body">
+                <h1 class=" move-up">CONQUER</h1>
+                <h4>Simple Bootstrap Template</h4>
             </div>
         </div>
           <!-- <div class="container-fluid" id="banner-container">
@@ -136,13 +135,12 @@
       </div>
 
 
-      <div class="container-fluid position-relative mt-5" id="banner-container1">
-        <img src="./images/image12.jpg" class="img-fluid w-100" id="banner1" alt="">
-        <div class="carousel-caption" id="caption2">
-            <h1 class="text-shadow text">Our Services</h1>
-            <p>Nunc diam leo, fringilla vulputate elit lobortis, consectetur vestibulum quam. Sed id
-                felis ligula. In euismod libero at magna dapibus, in rutrum velit lacinia.
-                Etiam a mi quis arcu varius condimentum.</p>
+      <div class="services-section mt-5">
+        <div class="service-body">
+            <h2 class=" move-up">Our Services</h2>
+            <p class="move-up">Lorem ipsum dolor, sit amet consectetur adipisicing elit. libero quae? Unde error reprehenderit ut aspernatur.</p>
+            <p class="move-up">Nulla voluptatum suscipit tenetur consequuntur. Quidem, reprehenderit ipsum!</p>
+        <!-- <div class="container-fluid"></div> -->
         </div>
     </div><br><br>
 
@@ -207,26 +205,39 @@
         </div>
     </div><br><br><br> 
 
-    <div class="container-fluid position-relative d-flex align-items-center justify-content-center" id="banner-container3">
-        <img src="./images/image13.jpg" class="img-fluid w-100 " id="banner00" alt="">
-        <div class="carousel-caption" id="caption3">
-            <h2 class="text-shadow" id="contact">Contact Form</h2><br>
-            <p class="border border-1 bg-light text-dark rounded-1"  id="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam ducimus nihil porro necessitatibus obcaecati, reiciendis sint repellendus ipsum aut repellat dicta illum voluptas beatae numquam earum iure sit vel corporis.</p>
-                <form>
-                  <div class="row" id="form1">
-                    <div class="col">
-                      <input type="text" class="form-control rounded-1" placeholder="Name" name="name" fdprocessedid="vhdi1k"><br>
-                      <input type="email" class="form-control rounded-1" placeholder="Email" name="email" fdprocessedid="c94mm"><br>
-                      <input type="text" class="form-control rounded-1" placeholder="Subject" name="subject" fdprocessedid="ugot6o">
-                    </div>
-                    <div class="col">
-                      <textarea class="form-control rounded-1" placeholder="Your message here..." rows="6" id="comment" name="text"></textarea><br>
-                      <button type="submit" class="btn btn-dark mt-3" style="width: 100px;" fdprocessedid="s7aye">Send</button>
-                    </div>
-                  </div>
-                </form>
+    <div class="contact-section">
+        <div class="contact-form-card">
+          <h2 class="text-center mb-4">Contact Form</h2>
+          <form>
+            <div class="form-group mb-4">
+                <textarea class="form-control background-transparent" id="msg" rows="7" placeholder="Message">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quia illum a fuga necessitatibus. Minima itaque facilis recusandae officiis nihil cum repellendus ipsam quas velit. Corporis a qui doloribus explicabo?</textarea>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group mb-3">
+                  <input type="text" class="form-control background-transparent" placeholder="Name" >
+                </div>
+                <div class="form-group mb-3">
+                  <input type="email" class="form-control background-transparent" placeholder="Email">
+                </div>
+                <div class="form-group mb-3">
+                  <input type="text" class="form-control background-transparent" placeholder="Subject">
+                </div>
+              </div>
+      
+              <div class="col-md-6">
+                <div class="form-group mb-4">
+                  <textarea class="form-control background-transparent" id="msg" style="height: 140px;" placeholder="Message"></textarea>
+                </div>
+              </div>
+      
+                <div class="text-center">
+                <button type="submit" class="btn btn-dark" id="button">Send</button>
+                </div>
+          </form>
         </div>
-    </div>
+      </div>
 
     </body>
 </html>
