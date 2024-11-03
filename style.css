@@ -22,12 +22,12 @@
     position: relative;
     padding: 70px;
 }
-#card2img1{
+.cardimg{
     height: 300px;
 }
-#card2img2{
+/* #cardimg5{
     height: 300px;
-}
+} */
 #caption1{
     top: 100px;
 }
