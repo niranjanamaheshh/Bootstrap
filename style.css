@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.nav-item{
+    /* border: 1px solid white; */
+    margin-right: 10px;
+}
+#banner-container1{
+    padding: 0px;
+}
+.nav-item a:hover{
+    background:dimgray;
+}
+#card2img1{
+    height: 300px;
+}
+#card2img2{
+    height: 300px;
+}
+#caption1{
+    top: 100px;
+}
+#caption2{
+    top: 80px;
+}
+
+#banner-container3{
+    padding: 0px;
+}
+@media (max-width: 576px) {
+    .card {
+        margin-bottom: 15px;
+    }
+    .carousel-caption h1, .carousel-caption p {
+        font-size: 1rem;
+    }
+}
